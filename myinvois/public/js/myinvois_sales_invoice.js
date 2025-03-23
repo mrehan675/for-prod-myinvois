@@ -1,6 +1,7 @@
 
 frappe.ui.form.on("Sales Invoice", {
-    refresh: function(frm) {
+    refresh: function(frm) 
+                console.log("tet");
                 frm.add_custom_button(__("Send e-invoice"), function() {
                     frm.call({
                         // method:"myinvois.myinvois.myinvoissdkcode.myinvois_Call",
